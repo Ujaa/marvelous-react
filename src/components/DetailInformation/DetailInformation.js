@@ -19,7 +19,7 @@ function DetailInformation({
           }`}
         >
           {information.items.length === 0 ? (
-            <li className={styles.content_list_item}>No Comics :&#40;</li>
+            <li className={styles.content_list_item}>No {title} :&#40;</li>
           ) : (
             information.items.map((item, idx) => (
               <li className={styles.content_list_item} key={idx}>
