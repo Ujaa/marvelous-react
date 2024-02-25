@@ -1,0 +1,22 @@
+.character_list_item {
+  color: white;
+  font-size: 2.8rem;
+  transition-timing-function: ease-in-out;
+  transition-property: font-size;
+  transition-duration: 0.4s;
+  padding: 0.4rem 0;
+}
+
+.character_list_item:hover {
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .character_list_item {
+    font-size: 2rem;
+  }
+
+  .character_list_item:hover {
+    font-size: 4rem;
+  }
+}

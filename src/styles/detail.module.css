@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+}
+
+.content_wrapper {
+  height: 50vh;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-auto-flow: column;
+  grid-auto-columns: 70%;
+  gap: 3.2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 2rem;
+}
+
+.content_wrapper > * {
+  scroll-snap-align: start;
+}

@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+@font-face {
+  font-family: "bronova";
+  font-weight: normal;
+  src: url("../fonts/bronova.ttf") format("truetype");
+}
+
+body {
+  font-family: "bronova";
+  font-size: 10px;
+  background-color: #f0131e;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+aside {
+  width: 20vw;
+}
+
+main {
+  width: 80vw;
+}
