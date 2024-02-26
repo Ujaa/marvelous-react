@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/marvelous-react/static/css/main.fc060db6.css",
-    "main.js": "/marvelous-react/static/js/main.e306017f.js",
+    "main.js": "/marvelous-react/static/js/main.abe3eb6b.js",
     "index.html": "/marvelous-react/index.html",
     "static/media/bronova.ttf": "/marvelous-react/static/media/bronova.c4956047d27cdafdcd4a.ttf",
     "main.fc060db6.css.map": "/marvelous-react/static/css/main.fc060db6.css.map",
-    "main.e306017f.js.map": "/marvelous-react/static/js/main.e306017f.js.map"
+    "main.abe3eb6b.js.map": "/marvelous-react/static/js/main.abe3eb6b.js.map"
   },
   "entrypoints": [
     "static/css/main.fc060db6.css",
-    "static/js/main.e306017f.js"
+    "static/js/main.abe3eb6b.js"
   ]
 }
